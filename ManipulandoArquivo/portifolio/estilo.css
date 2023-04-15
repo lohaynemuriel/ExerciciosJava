@@ -1,0 +1,55 @@
+body{
+    background-image: url(imagens/campo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+th,td{
+    font-size: 30px;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
+    border-top: black 1px solid;
+    border-top-width: 3px;
+}
+
+footer p{
+    text-align: center;
+    display: block;
+}
+
+
+.imagem{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    article{
+        display: inline-block;
+    }
+
+    header{
+		font-size: 10vw;
+	}
+	form, input{
+		font-size: 8vw;
+	}
+
+}
